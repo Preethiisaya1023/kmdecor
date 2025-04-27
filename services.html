@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KM Decor | Services</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Playfair Display', serif;
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-800">
+
+  <!--  Elegant Navbar -->
+  <nav class="fixed top-0 left-0 w-full bg-white/80 backdrop-blur-md shadow-lg z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-20">
+        
+        <!-- Logo & Brand -->
+        <div class="flex items-center space-x-3">
+          <div class="w-10 h-10 bg-pink-200 rounded-full flex items-center justify-center shadow-inner">
+            <span class="text-pink-700 font-bold text-xl">KM</span>
+          </div>
+          <span class="text-2xl font-bold text-pink-700 tracking-wide">KM Decor</span>
+        </div>
+
+        <!-- Desktop Links -->
+        <div class="hidden md:flex space-x-10 text-lg">
+          <a href="INDEX.html" class="hover:text-pink-600 transition">Home</a>
+          <a href="services.html" class="hover:text-pink-600 transition">Services</a>
+          <a href="gallery.html" class="hover:text-pink-600 transition">Gallery</a>
+          <a href="contact.html" class="hover:text-pink-600 transition">Contact</a>
+        </div>
+
+        <!-- Mobile Menu Button -->
+        <div class="md:hidden">
+          <button id="menu-btn" class="text-pink-700 focus:outline-none text-2xl">
+            ☰
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden bg-white shadow-md px-4 pb-4 pt-2">
+      <a href="INDEX.html" class="block py-2 text-lg hover:text-pink-600">Home</a>
+      <a href="services.html" class="block py-2 text-lg hover:text-pink-600">Services</a>
+      <a href="gallery.html" class="block py-2 text-lg hover:text-pink-600">Gallery</a>
+      <a href="contact.html" class="block py-2 text-lg hover:text-pink-600">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Content Padding -->
+  <div class="pt-24">
+    <!-- Page content or hero section starts here -->
+  </div>
+
+  <!-- Toggle Script -->
+  <script>
+    const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    menuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+
+
+
+<body class="bg-pink-50 text-gray-800">
+
+  <!-- Page Header -->
+  <header class="bg-gradient-to-r from-pink-100 to-pink-200 py-16 shadow-md text-center">
+    <h1 class="text-4xl sm:text-5xl font-bold text-pink-700">Our Services</h1>
+    <p class="text-pink-600 mt-2 text-lg">Creating beautiful moments for every occasion</p>
+  </header>
+
+  <!--  Services Section -->
+  <section class="max-w-6xl mx-auto px-6 py-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+    
+    <!-- Service Card with Image -->
+    <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
+      <img src="./IMAGE/km6.jpg" class="w-full h-48 object-cover" />
+      <div class="p-6">
+        <h2 class="text-2xl font-semibold text-pink-700 mb-2">Wedding Decor</h2>
+        <p class="text-gray-600">Elegant mandaps, floral aisles, and fairy-tale vibes curated with detail and love.</p>
+      </div>
+    </div>
+
+    <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
+      <img src="./IMAGE/km12.jpg" class="w-full h-48 object-cover" />
+      <div class="p-6">
+        <h2 class="text-2xl font-semibold text-pink-700 mb-2">Birthday Themes</h2>
+        <p class="text-gray-600">Fun, personalized themes for kids & adults with balloons, backdrops, and cake tables.</p>
+      </div>
+    </div>
+
+    <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
+      <img src="./IMAGE/km2.jpg" class="w-full h-48 object-cover" />
+      <div class="p-6">
+        <h2 class="text-2xl font-semibold text-pink-700 mb-2">Baby Showers</h2>
+        <p class="text-gray-600">Soft pastel decor, welcome boards, and warm vibes for moms-to-be.</p>
+      </div>
+    </div>
+
+    <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
+      <img src="./IMAGE/km1 (1).jpg" class="w-full h-48 object-cover" />
+      <div class="p-6">
+        <h2 class="text-2xl font-semibold text-pink-700 mb-2">Engagements</h2>
+        <p class="text-gray-600">Romantic ring ceremony setups with candles, roses, and dreamy lighting.</p>
+      </div>
+    </div>
+
+    <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
+      <img src="./IMAGE/km12.jpg" class="w-full h-48 object-cover" />
+      <div class="p-6">
+        <h2 class="text-2xl font-semibold text-pink-700 mb-2">Anniversaries</h2>
+        <p class="text-gray-600">Celebrate milestones with romantic settings, floral arches, and candlelit dinners.</p>
+      </div>
+    </div>
+
+    <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
+      <img src="./IMAGE/km12.jpg "class="w-full h-48 object-cover" />
+      <div class="p-6">
+        <h2 class="text-2xl font-semibold text-pink-700 mb-2">Custom Themes</h2>
+        <p class="text-gray-600">Have a theme in mind? We bring your vision to life with personalized styling.</p>
+      </div>
+    </div>
+
+  </section>
+  <!--  Testimonials Section -->
+  <section class="bg-white py-16 px-6">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl font-bold text-pink-700 mb-10">What Our Clients Say</h2>
+
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-pink-100 p-6 rounded-xl shadow-md">
+          <p class="italic text-gray-700 mb-4">"KM Decor made my wedding day magical! Every detail was stunning. Highly recommend!"</p>
+          <p class="font-semibold text-pink-700">– Meera S.</p>
+        </div>
+        <div class="bg-pink-100 p-6 rounded-xl shadow-md">
+          <p class="italic text-gray-700 mb-4">"I loved the pastel setup they did for my baby shower. It was perfect, like Pinterest came to life."</p>
+          <p class="font-semibold text-pink-700">– Anjali D.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="bg-white py-16 px-4 md:px-20">
+    <div class="text-center mb-12">
+      <h2 class="text-4xl font-bold text-gray-800 mb-4">Frequently Asked Questions</h2>
+      <p class="text-lg text-gray-600">Here are some common questions we get. Feel free to reach out if you need more information!</p>
+    </div>
+  
+    <div class="space-y-6 max-w-3xl mx-auto">
+      <!-- FAQ Item 1 -->
+      <div class="border border-gray-300 rounded-lg">
+        <button class="w-full text-left px-6 py-4 bg-gray-100 text-gray-800 font-semibold focus:outline-none" onclick="toggleAnswer(0)">
+          <span>What services do you offer?</span>
+          <svg class="w-5 h-5 text-gray-600 float-right transition-transform transform" id="icon-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6 9l6 6 6-6"></path>
+          </svg>
+        </button>
+        <div id="answer-0" class="hidden px-6 pb-4 text-gray-700">
+          <p>We specialize in creating beautiful event decor for weddings, birthdays, corporate events, and outdoor celebrations. Our services include floral arrangements, custom backdrops, lighting, and more!</p>
+        </div>
+      </div>
+  
+      <!-- FAQ Item 2 -->
+      <div class="border border-gray-300 rounded-lg">
+        <button class="w-full text-left px-6 py-4 bg-gray-100 text-gray-800 font-semibold focus:outline-none" onclick="toggleAnswer(1)">
+          <span>How do I book an event?</span>
+          <svg class="w-5 h-5 text-gray-600 float-right transition-transform transform" id="icon-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6 9l6 6 6-6"></path>
+          </svg>
+        </button>
+        <div id="answer-1" class="hidden px-6 pb-4 text-gray-700">
+          <p>You can book our services by visiting our contact page and filling out the form, or simply reach out to us on WhatsApp. We recommend booking at least 4 weeks in advance for the best availability.</p>
+        </div>
+      </div>
+  
+      <!-- FAQ Item 3 -->
+      <div class="border border-gray-300 rounded-lg">
+        <button class="w-full text-left px-6 py-4 bg-gray-100 text-gray-800 font-semibold focus:outline-none" onclick="toggleAnswer(2)">
+          <span>Do you provide event setup and teardown?</span>
+          <svg class="w-5 h-5 text-gray-600 float-right transition-transform transform" id="icon-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6 9l6 6 6-6"></path>
+          </svg>
+        </button>
+        <div id="answer-2" class="hidden px-6 pb-4 text-gray-700">
+          <p>Yes, we provide both setup and teardown services to ensure everything runs smoothly. Our team will arrive well in advance to set up, and we’ll take care of everything afterward.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <script>
+    // Toggle FAQ answers visibility
+    function toggleAnswer(index) {
+      const answer = document.getElementById(`answer-${index}`);
+      const icon = document.getElementById(`icon-${index}`);
+  
+      // Toggle visibility of the answer
+      answer.classList.toggle('hidden');
+      
+      // Rotate icon based on visibility
+      icon.classList.toggle('rotate-180');
+    }
+  </script>
+ 
+  
+  
+<!--  Footer -->
+<footer class="bg-pink-100 text-gray-700 py-10 mt-10">
+    <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6 text-center md:text-left">
+  
+      <!-- Brand Info -->
+      <div>
+        <h3 class="text-2xl font-bold text-pink-700">KM Decor</h3>
+        <p class="text-sm mt-2">Crafting beauty in every moMent</p>
+      </div>
+  
+      <!-- Navigation Links -->
+      <div class="space-x-4">
+        <a href="index.html" class="hover:text-pink-600 transition">Home</a>
+        <a href="services.html" class="hover:text-pink-600 transition">Services</a>
+        <a href="contact.html" class="hover:text-pink-600 transition">Contact</a>
+      </div>
+  
+      <!-- Social Media Icons (use real links later) -->
+      <div class="flex space-x-4">
+        <a href="#" class="hover:text-pink-600 transition">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M22.46 6c-.77.35-1.6.59-2.46.69a4.27 4.27 0 001.87-2.36 8.4 8.4 0 01-2.7 1.03 4.23 4.23 0 00-7.22 3.85A12 12 0 013 4.9a4.22 4.22 0 001.31 5.63 4.2 4.2 0 01-1.92-.53v.05a4.24 4.24 0 003.39 4.15 4.23 4.23 0 01-1.91.07 4.25 4.25 0 003.95 2.93A8.5 8.5 0 012 19.54 12 12 0 008.29 21c7.55 0 11.68-6.26 11.68-11.7 0-.18 0-.35-.01-.53A8.3 8.3 0 0022.46 6z"/></svg>
+        </a>
+        <a href="#" class="hover:text-pink-600 transition">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M19 3A2 2 0 0121 5v14a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h14zm-8 4H9v2h2v6h2V9h2V7h-2V6a1 1 0 011-1h1V3h-1a3 3 0 00-3 3v1z"/></svg>
+        </a>
+        <a href="#" class="hover:text-pink-600 transition">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 2.04c-5.5 0-9.96 4.46-9.96 9.96 0 4.4 2.86 8.13 6.84 9.47.5.09.68-.22.68-.48v-1.7c-2.78.61-3.37-1.34-3.37-1.34-.45-1.13-1.11-1.43-1.11-1.43-.91-.62.07-.61.07-.61 1 .07 1.53 1.04 1.53 1.04.9 1.54 2.36 1.1 2.94.84.09-.65.35-1.1.64-1.35-2.22-.25-4.56-1.11-4.56-4.93 0-1.09.39-1.99 1.03-2.69-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02A9.56 9.56 0 0112 6.84a9.57 9.57 0 012.5.34c1.9-1.29 2.73-1.02 2.73-1.02.56 1.38.21 2.4.1 2.65.64.7 1.03 1.6 1.03 2.69 0 3.83-2.35 4.68-4.59 4.93.36.31.69.91.69 1.83v2.71c0 .26.18.58.7.48A10 10 0 0012 2.04z"/></svg>
+        </a>
+      </div>
+    </div>
+  
+    <div class="text-center text-sm text-pink-600 mt-6">
+      &copy; 2025 KM Decor. All rights reserved.
+    </div>
+  </footer>
+ 
+  
+</body>
+</html>
